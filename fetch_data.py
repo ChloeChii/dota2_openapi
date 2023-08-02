@@ -74,6 +74,6 @@ def fetch_data(endpoint):
             logging.error(f"{error_string} {err}")
     # Print the response content and status code for debugging purposes
     logging.debug(f"Response Content: {response.content}")
-    # logging.debug(f"Response Status Code: {response.status_code}")
+    logging.debug(f"Response Status Code: {response.status_code}")
 
     return None
